@@ -1,0 +1,31 @@
+html{
+    background-color: #1a1e23;
+}
+body{
+    background-color: #1a1e23;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+  
+.flex-item + .flex-item {
+    margin-left: 10px;
+}
+  
+.button {
+    border-radius:4px;
+    margin-top: 250px;
+    background-color: #eb001a;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
