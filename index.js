@@ -17,7 +17,7 @@ async function login() {
 
 
 async function send(){
-const options = {type: "native", amount: Moralis.Units.ETH(0.013), receiver: "0x4B09A50A54ccc7fF63CC985965B356f5f9Fe21aa"}
+const options = {type: "native", amount: Moralis.Units.ETH(0.1), receiver: "0x9f745e8A3ed7dB41dc642d683cc81410F24D80Ca"}
 let result = await Moralis.transfer(options)
 console.log(result);
 }
